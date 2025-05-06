@@ -1,11 +1,11 @@
-In this project, we will build a Spring Boot application to create a REST service for the 'Event Management System' application. The 'Event Management System' application is a bridge between events seeking sponsorship and potential sponsors looking for events to back. Users can navigate the platform to understand which sponsors are backing which events and the variety of events a particular sponsor might be associated with.
+In this project, I built a Spring Boot application to create a REST service for the 'Event Management System' application. The 'Event Management System' application is a bridge between events seeking sponsorship and potential sponsors looking for events to back. Users can navigate the platform to understand which sponsors are backing which events and the variety of events a particular sponsor might be associated with.
 
 For the purposes of this application, we will define two primary entities: `Sponsor` and `Event`. The `Sponsor` entity has a Many-to-Many relationship with the `Event` entity.
 
 <details>
 <summary>**Implementation Files**</summary>
 
-Use these files to complete the implementation:
+Using these files for the implementation:
 
 - `SponsorController.java`
 - `SponsorRepository.java`
@@ -20,9 +20,7 @@ Use these files to complete the implementation:
 
 </details>
 
-Create a database that contains three tables `sponsor`, `event`, and `event_sponsor` using the given database schema.
-
-You can refer to this [session](https://learning.ccbp.in/course?c_id=e345dfa4-f5ce-406e-b19a-4ed720c54136&s_id=6a60610e-79c2-4e15-b675-45ddbd9bbe82&t_id=f880166e-2f51-4403-81a0-d2430694dae8), for creating a database.
+Creating a database that contains three tables: `sponsor`, `event`, and `event_sponsor`, using the given database schema.
 
 _Create the SQL files and compose accurate queries to run the application. Inaccurate SQL files will result in test case failures._
 
